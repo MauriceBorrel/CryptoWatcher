@@ -15,6 +15,9 @@
           </ion-label>
           <ion-toggle slot="end" value="dark" @ionChange="setTheme($event.detail.value)" :checked="checkTheme()"></ion-toggle>
         </ion-item>
+        <ion-item lines="full">
+          <p style="opacity: 0.6; font-size: 12px;">This app is powered by <a href="https://www.coingecko.com/en/api">CoinGecko</a></p>
+        </ion-item>
       </ion-list>
     </ion-content>
 
